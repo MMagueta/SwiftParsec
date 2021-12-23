@@ -1,0 +1,21 @@
+#+TITLE: Swift Parsec
+
+* What is this?
+
+A light monadic parser combinator library in Swift.
+
+* What is a monadic parser combinator?
+
+An atomic parser that is specialized into handling specific
+categories of input on a language, able to assert errors and
+return matching types to tokens. With such atomic parsers one
+can create a language parser fitting to a grammar.
+
+* Should you use it?
+
+That is up to you. This is my first Swift code, so I wouldn't
+take this as the cornerstone of a work, unless you know what 
+you are doing. I do have a few principles though:
+
+- Minimal code
+- Beauty over performance (in situations they are mutex)
